@@ -53,7 +53,8 @@ Variabilele le puteți declara unde vreți (chiar și in afara funcției `main`)
 Citire: `cin >> a >> b >> c;`
 
 Afișare: `cout << x;`
-Atenție când afișați mai multe valori! Ele trebuie separate prin spațiu (`" "`) sau *line break*/enter (`"\n"`). Exemplu:
+
+Atenție când afișați mai multe valori! Ele trebuie separate prin spațiu (`" "`) sau line break/enter (`"\n"`). Exemplu:
 
 ```cpp
 int a = 23, b = 5386, c = 356;
@@ -71,6 +72,7 @@ afișează:
 ## Comentarii
 
 Probabil ați observat prin exemple fragmente care de genul: `// ...` sau `/* ... */`. Ele se numesc comentarii și sunt ignorate de calculator.
+
 `// ...` este pentru comentariu pe o singură linie și `/* ... */` pentru mai multe linii.
 
 ## Operatori
@@ -88,6 +90,7 @@ cout << expr; // afișează -28
 ### Operatori logici
 
 În pseudocod: `not`, `and`, `or`, `xor`.
+
 În C++: la fel ca în pseudocod (de preferat utilizați-i așa dacă v-ați obșnuit) sau: `!`, `&&`, `||`, `^`.
 
 ## Structura alternativă
@@ -103,11 +106,12 @@ else
 }
 ```
 
-**Problemă:** Cum folosim `=` în `if` dacă deja este folosit pentru inițializare și atribuire?
+**Problemă:** Cum folosim `=` în `if` dacă `=` deja este folosit pentru inițializare și atribuire?
+
 **Rezolvare:** Scriem `==`.
 
 Pentru a exprima `a diferit de b`:
-`a != b` (de preferat) sau `not (a == b)`
+(de preferat) `a != b` sau `not (a == b)`
 
 Exemple:
 ```cpp
