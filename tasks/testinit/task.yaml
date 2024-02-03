@@ -1,0 +1,12 @@
+name: ""
+title: ""
+time_limit: 
+memory_limit:
+n_input: 
+score_mode: max
+token_mode: disabled
+max_submission_number: 15
+min_submission_interval: 30
+infile: ".in"
+outfile: ".out"
+primary_language: "ro"

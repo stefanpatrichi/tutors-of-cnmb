@@ -1,0 +1,168 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\usepackage{algpseudocode}
+\author{Test Tutors of CNMB Informatică}
+\date{\today}
+
+\begin{document}
+\section*{Problema \texttt{autostrada} (10p)}
+Ciorogârla se află la kilometrul 60 pe autostrada A2. Se știe că noi suntem la kilometrul $k$.
+\section*{Cerință}
+La ce distanță de Ciorogârla suntem?
+\section*{Date de intrare}
+Se citește $k$.
+\section*{Date de ieșire}
+Se va afișa distanța până la Ciorogârla.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $0 \leq k \leq 10^9$
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{Intrare}:
+    \begin{lstlisting}
+34
+    \end{lstlisting}
+
+\texttt{Ieșire}:
+    \begin{lstlisting}
+22
+    \end{lstlisting}
+
+}
+
+\pagebreak
+
+\section*{Problema \texttt{divide} (20p)}
+\section*{Cerință}
+Dându-se două numere întregi, $n$ și $k$, să se afișeze câtul împărțirii $\frac{n}{k}$, în cazul în care $k$ divide $n$.
+\section*{Date de intrare}
+Se citesc $n$ și $k$ întregi.
+\section*{Date de ieșire}
+Se va afișa câtul împărțirii $\frac{n}{k}$, în cazul în care $k$ divide $n$, altfel -1.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $-10^9 \leq n, k \leq 10^9$
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{Intrare}:
+    \begin{lstlisting}
+45 9
+    \end{lstlisting}
+
+\texttt{Ieșire}:
+    \begin{lstlisting}
+5
+    \end{lstlisting}
+
+}
+
+\pagebreak
+
+\section*{Problema \texttt{inecuatie} (25p)}
+Gigel știe că o inecuație are mulțimea soluțiilor $\mathcal{S} = \mathcal{S}_1 \cup \mathcal{S}_2$.
+În plus, $\mathcal{S}_1 = [a, b)$ și $\mathcal{S}_2 = (c, d]$.
+\section*{Cerință}
+Gigel vrea să afle dacă o anumită valoare este soluție a inecuației.
+\section*{Date de intrare}
+Se citesc $a$, $b$, $c$, $d$ și $x$. 
+\section*{Date de ieșire}
+Să se afișeze \texttt{sol} dacă $x \in \mathcal{S}$ și \texttt{nu e sol} dacă $x$
+nu este soluție a inecuației.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $-10^9 \leq a < b < c < d \leq 10^9$
+    \item $-10^9 \leq x \leq 10^9$
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{Intrare}:
+    \begin{lstlisting}
+2 5 10 13
+5
+    \end{lstlisting}
+
+\texttt{Ieșire}:
+    \begin{lstlisting}
+nu e sol
+    \end{lstlisting}
+}
+
+\pagebreak
+
+\section*{Problema \texttt{progress} (25p)}
+Se dau trei numere pozitive, $x$, $y$ și $z$.
+\section*{Cerință}
+Numerele, în această ordine, se află în progresie artimetică (cerința 1)? Dar geometrică (cerința 2)?
+\section*{Date de intrare}
+Se citesc $c$, $x$, $y$ și $z$.
+\section*{Date de ieșire}
+Dacă $c = 1$, în cazul în care $x$, $y$ și $z$ sunt în progresie artimetică, afișați rația acesteia, altfel afișați \texttt{X}.
+
+\noindent Dacă $c = 2$, în cazul în care $x$, $y$ și $z$ sunt în progresie geometrică, afișați rația acesteia, altfel afișați \texttt{X}.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $c = 1$ sau $c = 2$
+    \item $0 \leq x,y,z \leq 10^9$
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{Intrare}:
+    \begin{lstlisting}
+1
+2 4 6
+    \end{lstlisting}
+
+\texttt{Ieșire}:
+    \begin{lstlisting}
+2
+    \end{lstlisting}
+
+\section*{Exemplul 2}
+\texttt{Intrare}:
+    \begin{lstlisting}
+2
+3 9 29
+    \end{lstlisting}
+
+\texttt{Ieșire}:
+    \begin{lstlisting}
+X
+    \end{lstlisting}
+
+}
+
+\section*{Problema \texttt{ident} (20p)}
+Se dă algoritmul:
+
+\begin{algorithmic}[1]
+    \State \texttt{\textbf{citește} a} \texttt{(a} $\geq 1000$, \texttt{a} $\in \mathbb{N}$\texttt{)}
+    \State \texttt{aux $\gets$ a \% 100};
+    \State \texttt{a $\gets$ a / 1000};
+    \State \texttt{a $\gets$ a + aux * 100};
+    \State \texttt{\textbf{scrie} a};
+\end{algorithmic}
+
+\section*{Cerință}
+\begin{enumerate}[a)]
+    \item (10p) Execută algoritmul pentru \texttt{a = 32958} și \texttt{a = 4692}.
+    \item (10p) Care este efectul algoritmului?
+\end{enumerate}    
+
+
+
+\end{document}
