@@ -6,10 +6,10 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     // instrucțiuni
-    return 0;
-    
+    return 0; 
 }
 ```
 
@@ -73,3 +73,67 @@ afișează:
 Probabil ați observat prin exemple fragmente care de genul: `// ...` sau `/* ... */`. Ele se numesc comentarii și sunt ignorate de calculator.
 `// ...` este pentru comentariu pe o singură linie și `/* ... */` pentru mai multe linii.
 
+## Operatori
+
+### Operatori matematici
+
+În principiu sunt aceiași ca în pseudocod: `+`, `-`, `*`, `/`, `%`. Se respectă ordinea operațiilor din matematică.
+
+```cpp
+int x = 10, y = 5, z = 7;
+int expr = (x + y) / 3 + z % y + (y - x) * z;
+cout << expr; // afișează -28
+```
+
+### Operatori logici
+
+În pseudocod: `not`, `and`, `or`, `xor`.
+În C++: la fel ca în pseudocod (de preferat utilizați-i așa dacă v-ați obșnuit) sau: `!`, `&&`, `||`, `^`.
+
+## Structura alternativă
+
+```cpp
+if (condiție)
+{
+    // instrucțiuni
+}
+else
+{
+    // instrucțiuni
+}
+```
+
+**Problemă:** Cum folosim `=` în `if` dacă deja este folosit pentru inițializare și atribuire?
+**Rezolvare:** Scriem `==`.
+
+Pentru a exprima `a diferit de b`:
+`a != b` (de preferat) sau `not (a == b)`
+
+Exemple:
+```cpp
+int varsta;
+cin >> varsta;
+
+if (varsta >= 18)
+{
+    cout << "major";
+}
+else
+{
+    cout << "minor";
+}
+```
+
+```cpp
+int an;
+cin >> an;
+
+if (an % 4 == 0 and an % 100 != 0 or an % 400 == 0) 
+{
+    cout << "bisect";
+}
+else 
+{
+    cout << "nu e bisect";
+}
+```
