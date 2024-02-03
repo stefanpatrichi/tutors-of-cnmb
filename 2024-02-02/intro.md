@@ -91,7 +91,7 @@ cout << expr; // afișează -28
 
 În pseudocod: `not`, `and`, `or`, `xor`.
 
-În C++: la fel ca în pseudocod (de preferat utilizați-i așa dacă v-ați obșnuit) sau: `!`, `&&`, `||`, `^`.
+În C++: la fel ca în pseudocod (de preferat utilizați-i așa dacă v-ați obișnuit cu ei) sau: `!`, `&&`, `||`, `^` respectiv.
 
 ## Structura alternativă
 
@@ -105,6 +105,9 @@ else
     // instrucțiuni
 }
 ```
+**Observație:** Nu scriem `then` în C++! Tot ce se întâmplă în cazul în care condiția este îndeplinită se află între acolade.
+
+Nu uitați: `enter + acolade`!
 
 **Problemă:** Cum folosim `=` în `if` dacă `=` deja este folosit pentru inițializare și atribuire?
 
