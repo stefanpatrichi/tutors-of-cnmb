@@ -1,0 +1,57 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\usepackage{algpseudocode}
+\author{Temă Tutors of CNMB Informatică}
+\date{\today}
+
+\begin{document}
+\section*{Problema \texttt{ident2}}
+Se dă algoritmul:
+
+\begin{algorithmic}[1]
+    \State \texttt{\textbf{citește} a}; 
+    \State \texttt{aux $\gets$ a \% 100};
+    \State \texttt{a $\gets$ a / 1000};
+    \State \texttt{a $\gets$ a * 100 + aux};
+    \State \texttt{\textbf{scrie} a};
+\end{algorithmic}
+
+\section*{Cerință}
+Implementează algoritmul în limbajul C++. Rulează-l pe exemplele de mai jos (+ pe exemple create de tine) și, când ești
+sigură că funcționează cum trebuie, dă-i \textit{submit}!
+
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item \texttt{a} $\geq 1000$, \texttt{a} $\in \mathbb{N}$\texttt{}
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{stdin}:
+    \begin{lstlisting}
+154786
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+15486
+    \end{lstlisting}
+
+\section*{Exemplul 2}
+\texttt{stdin}:
+    \begin{lstlisting}
+6345787
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+634587
+    \end{lstlisting}
+}
+
+
+
+\end{document}

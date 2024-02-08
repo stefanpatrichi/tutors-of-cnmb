@@ -1,0 +1,10 @@
+name: "ident2"
+title: "ident2"
+time_limit: 0.2
+memory_limit: 1
+n_input: 10
+score_mode: max
+token_mode: disabled
+max_submission_number: 15
+min_submission_interval: 30
+primary_language: "ro"

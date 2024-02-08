@@ -1,0 +1,49 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\author{Test Tutors of CNMB Informatică}
+\date{16 februarie 2024}
+
+\begin{document}
+\section*{Problema \texttt{pass}}
+În calitate de informaticieni pricepuți, ați fost selectați de conducerea CNMB pentru a-i ajuta la digitalizarea catalogului școlar,
+în special în determinarea celor care au trecut clasa și a celor care au rămas corigenți.
+\section*{Cerință}
+Dându-se o medie, să se afișeze dacă elevul care a obținut-o a trecut clasa sau este corigent.
+\section*{Date de intrare}
+Se va citi de la tastatură media $m$.
+\section*{Date de ieșire}
+Se va afișa \texttt{trece} dacă elevul care a obținut media $m$ a trecut clasa și \texttt{corigent} dacă a rămas corigent.
+(exact așa cum este în enunț, cu litere mici!)
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $1 \leq m \leq 10$, $m \in \mathbb{N}$
+    \item nota minimă de trecere este 5
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{stdin}:
+    \begin{lstlisting}
+3
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+corigent
+    \end{lstlisting}
+
+\section*{Exemplul 2}
+\texttt{stdin}:
+    \begin{lstlisting}
+8
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+trece
+    \end{lstlisting}
+}
+\end{document}

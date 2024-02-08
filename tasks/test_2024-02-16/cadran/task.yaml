@@ -1,0 +1,12 @@
+name: "cadran"
+title: "cadran"
+time_limit: 0.1
+memory_limit: 0.1
+n_input: 20
+score_mode: max
+token_mode: disabled
+max_submission_number: 15
+min_submission_interval: 30
+infile: "stdin"
+outfile: "stdout"
+primary_language: "ro"
