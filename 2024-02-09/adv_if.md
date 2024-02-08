@@ -233,7 +233,7 @@ int main()
 
 * **Problema zid**: Gigel vrea să construiască un zid între doi stâlpi verticali, aflați la distanța $D$ unul de altul. El dispune de $n$ cărămizi de lungime $l$ și înălțime $h$ pe care le așează orizontal, una după alta, ca în figură. Pe fiecare rând orizontal așează câte cărămizi încap, lăsând eventual un gol la capătul din dreapta. În sus el se oprește atunci când se termină cărămizile. Afișați înălțimea maximă a zidului construit. În exemplul din figură: dacă $D = 11$, $n = 8$, $l = 3$ și $h = 2$ atunci înălțimea maximă a zidului va fi 6 (3 cărămizi fiecare de înălțime 2).
 
-![](https://www.algopedia.ro/wiki/index.php/File:P4-zid.svg)
+![](images/P4-zid.png)
 
 <details>
 <summary>Soluție: </summary>
@@ -257,7 +257,7 @@ int main()
 ```
 </details>
 
-* **Problema ecgr1**. Se dau numerele naturale $a$ și $b4, reprezentând coeficienții ecuației de gradul întâi $ax + b = 0$. Afișați soluțiile
+* **Problema ecgr1**. Se dau numerele naturale $a$ și $b$, reprezentând coeficienții ecuației de gradul întâi $ax + b = 0$. Afișați soluțiile
 **naturale** ale ecuației. **Atenție! Soluțiile pot fi în număr de zero, una sau o infinitate!! Aveți grijă la cazurile particulare!**
 
 <details>
