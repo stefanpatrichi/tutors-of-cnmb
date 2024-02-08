@@ -156,6 +156,7 @@ int main()
     return 0;
 }
 ```
+
 </details>
 
 ## Modulo pentru circularitate/periodicitate
@@ -163,9 +164,11 @@ int main()
 Operatorul `%` se citește `modulo` sau `mod`.
 
 Considerăm șirul numerelor naturale:
+
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 etc.
 
 Aplicând operația `% 4` tuturor acestor numere:
+
 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2 etc.
 
 Deci `% 4` ne folosește dacă avem ceva ce se repetă în grupe de câte 4.
@@ -205,6 +208,7 @@ int main()
 
 **Problemă:** Revenim cu altă soluție la problema anotimpurilor.
 <details>
+<summary>Soluție alternativă:</summary>
 
 ```cpp
 #include <iostream>
@@ -227,9 +231,9 @@ int main()
 
 ## Probleme greuțe
 
-* **Problema zid**: Gigel vrea să construiască un zid între doi stâlpi verticali, aflați la distanța $D$ unul de altul. El dispune de $n$ cărămizi de lungime $l$ și înălțime $h$ pe care le așează orizontal, una după alta, ca în figură. Pe fiecare rând orizontal așează câte cărămizi încap, lăsând eventual un gol la capătul din dreapta. În sus el se oprește atunci când se termină cărămizile. Afișați înălțimea maximă a zidului construit. În exemplul din figură: dacă D = 11, n = 8, l = 3 și h = 2 atunci înălțimea maximă a zidului va fi 6 (3 cărămizi fiecare de înălțime 2).
+* **Problema zid**: Gigel vrea să construiască un zid între doi stâlpi verticali, aflați la distanța $D$ unul de altul. El dispune de $n$ cărămizi de lungime $l$ și înălțime $h$ pe care le așează orizontal, una după alta, ca în figură. Pe fiecare rând orizontal așează câte cărămizi încap, lăsând eventual un gol la capătul din dreapta. În sus el se oprește atunci când se termină cărămizile. Afișați înălțimea maximă a zidului construit. În exemplul din figură: dacă $D = 11$, $n = 8$, $l = 3$ și $h = 2$ atunci înălțimea maximă a zidului va fi 6 (3 cărămizi fiecare de înălțime 2).
 
-!(https://www.algopedia.ro/wiki/index.php/File:P4-zid.svg)
+![](https://www.algopedia.ro/wiki/index.php/File:P4-zid.svg)
 
 <details>
 <summary>Soluție: </summary>
@@ -253,7 +257,7 @@ int main()
 ```
 </details>
 
-* **Problema ecgr1**. Se dau numerele naturale a și b, reprezentând coeficienții ecuației de gradul 1 $ax + b = 0$. Afișați soluțiile
+* **Problema ecgr1**. Se dau numerele naturale $a$ și $b4, reprezentând coeficienții ecuației de gradul întâi $ax + b = 0$. Afișați soluțiile
 **naturale** ale ecuației. **Atenție! Soluțiile pot fi în număr de zero, una sau o infinitate!! Aveți grijă la cazurile particulare!**
 
 <details>
@@ -283,7 +287,7 @@ int main()
 
 ## Recapitulare. Ce am învățat astăzi?
 
-* operația XOR (irelevantă)
+* operația XOR
 * recapitulare whitespaces
 * `else if`
 * determinarea maximului dintre $n$ numere
