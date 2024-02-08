@@ -295,4 +295,17 @@ int main()
 * operatori compuși de atribuire: `+=`, `-=`, `*=` etc.
 * cum să abordăm probleme de gândire
 
+## Temă
+
+* Se dă un moment al zilei, în ore și minute, și un interval de timp, în ore și minute. Afișați ce oră va fi
+după respectivul interval de timp.
+
+* Se citesc de la tastatură trei numere naturale. Aceste numere pot reprezenta o dată calendaristică corectă în format zi-lună-an?
+Exemplu: `3 7 2006` este o dată calendaristică corectă (3 iulie 2006), în timp ce `10 13 1974` nu este.
+
+* Se citesc de la tastatură cinci numere naturale. Care este cel mai mic dintre ele?
+
+* Ne aflăm din nou, ca la testul inițial, pe autostrada A2. Amicul nostru, Gigel, are nevoie urgentă la toaletă. Spațiile dedicate acestor
+activități sunt amplasate din $d$ în $d$ kilometri, începând de la kilometrul 0 și sunt numerotate: 1, 2, 3, etc. Care este cel mai apropiat
+spațiu, știind că noi suntem la kilometrul $k$?
 
