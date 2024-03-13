@@ -1,0 +1,42 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\author{Test Tutors of CNMB Informatică}
+\date{17 februarie 2024}
+
+\begin{document}
+\section*{Problema \texttt{inecuatie2}}
+Gigel își amintește de problema \texttt{inecuatie} de la testul inițial. Era vorba de o
+inecuație cu mulțimea soluțiilor $\mathcal{S} = \mathcal{S}_1 \cup \mathcal{S}_2$, iar
+$\mathcal{S}_1 = [a, b)$ și $\mathcal{S}_2 = (c, d]$.
+\section*{Cerință}
+Acum, Gigel vrea să știe dacă o anumită valoare face parte din $\mathcal{S}_1$, $\mathcal{S}_2$ sau niciuna.
+\section*{Date de intrare}
+Se citesc $a$, $b$, $c$, $d$ și $x$. 
+\section*{Date de ieșire}
+Să se afișeze \texttt{0} dacă $x \notin \mathcal{S}$, \texttt{1} dacă $x \in \mathcal{S}_1$ și \texttt{2} dacă $x \in \mathcal{S}_2$.
+
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $-10^9 \leq a < b < c < d \leq 10^9$
+    \item $-10^9 \leq x \leq 10^9$
+
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{stdin}:
+    \begin{lstlisting}
+2 5 10 13 
+4
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+1
+    \end{lstlisting}
+
+}
+\end{document}

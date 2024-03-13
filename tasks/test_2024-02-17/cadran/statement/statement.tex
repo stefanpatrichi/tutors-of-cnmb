@@ -1,0 +1,47 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\author{Test Tutors of CNMB Informatică}
+\date{17 februarie 2024}
+
+\begin{document}
+\section*{Problema \texttt{cadran}}
+
+\section*{Cerință}
+Se dă un punct din plan. Afișați cadranul în care se află.
+\section*{Date de intrare}
+Se vor citi coordonatele punctului: $x$ $y$.
+\section*{Date de ieșire}
+Se va afișa cadranul în care se află punctul: \texttt{I}, \texttt{II}, \texttt{III} sau \texttt{IV}.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $-10^9 \leq x, y \leq 10^9$
+    \item $x, y \neq 0$
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{stdin}:
+    \begin{lstlisting}
+3 4
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+I
+    \end{lstlisting}
+
+\section*{Exemplul 2}
+\texttt{stdin}:
+    \begin{lstlisting}
+-34 -27
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+III
+    \end{lstlisting}
+}
+\end{document}

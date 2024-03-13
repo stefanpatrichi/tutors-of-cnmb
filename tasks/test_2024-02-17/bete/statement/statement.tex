@@ -1,0 +1,54 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage[romanian]{babel}
+\author{Test Tutors of CNMB Informatică}
+\date{17 februarie 2024}
+
+\begin{document}
+\section*{Problema \texttt{bete}}
+Trei bețe au lungimile de $a$ cm, $b$ cm, respectiv $c$ cm. Tăiem din bățul cel mai lung o bucată egală cu bățul cel mai scurt. 
+\section*{Cerință}
+Calculați diferența (în modul) de lungime dintre bucata rămasă și bățul de lungime medie.
+\section*{Date de intrare}
+Se citesc dimensiunile celor trei bețe: $a$, $b$ și $c$.
+\section*{Date de ieșire}
+Se afișează un număr reprezentând răspunsul la cerință.
+\section*{Restricții și precizări}
+\begin{itemize}
+    \item $1 \leq a, b, c \leq 10^7$
+    \item $a, b, c$ distincte două câte două
+\end{itemize}
+
+{
+\parindent0pt
+    
+\section*{Exemplul 1}
+\texttt{stdin}:
+    \begin{lstlisting}
+180 100 240
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+40 
+    \end{lstlisting}
+
+\subsection*{Explicație}
+Maximul este 240, minimul este 100, iar răspunsul este 40 deoarece $180-(240-100) = 40$.
+\includegraphics[scale=0.6]{../images/bete.png}
+
+\section*{Exemplul 2}
+\texttt{stdin}:
+    \begin{lstlisting}
+50 150 90
+    \end{lstlisting}
+
+\texttt{stdout}:
+    \begin{lstlisting}
+10
+    \end{lstlisting}
+\subsection*{Explicație}
+$(150-50)-90 = 10$.
+
+}
+\end{document}
