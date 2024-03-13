@@ -57,7 +57,7 @@ Exerciții rezolvate:
 
 Se dau punctele $A$ și $B$ într-un sistem de axe cartezian $xOy$ prin coordonatele lor. Să se afișeze lungimea medianei din $O$ pe $AB$.
 
-<img src="images/median.png" width="550px">
+<img src="https://github.com/stefanpatrichi/tutors-of-cnmb/blob/main/2024-03-13/images/median.png?raw=true" width="550px">
 
 Pași:
 - Aflăm coordonatele punctului $M$, mijlocul segmentului $(AB)$.
